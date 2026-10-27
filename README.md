@@ -82,3 +82,27 @@ npm run test:coverage
 ## Autora
 
 Projeto desenvolvido como atividade prática de testes unitários com Next.js 15.
+
+## Resultados dos testes
+
+Os testes automatizados foram executados com Jest e Testing Library.
+
+- **Suítes de testes aprovadas:** 3
+- **Testes aprovados:** 6
+- **Testes com falha:** 0
+
+### Cobertura de código
+
+Os arquivos `NovaTarefa.tsx` e `useContadorDeTarefas.ts` alcançaram 100% nas métricas de instruções, condições, funções e linhas, conforme o relatório de cobertura gerado pelo Jest.
+
+Para executar os testes:
+
+```bash
+npm test
+```
+
+Para gerar o relatório de cobertura:
+
+```bash
+npm run test:coverage
+```
